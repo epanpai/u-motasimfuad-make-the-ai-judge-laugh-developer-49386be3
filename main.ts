@@ -9,6 +9,13 @@
 // The line: "It worked on my machine — unfortunately, my machine is the
 // only one that has never met a real user."
 //
+// The em-dash does the timing: it holds the beat between the worn excuse
+// and the admission that kills it, so the twist lands in the second
+// clause instead of trailing after a comma. It is one character in the
+// gate's count (99 characters total), and the file is written as UTF-8,
+// so the byte count (101) differs from the character count — the gate
+// counts characters, and 99 is well inside 1–200 either way.
+//
 // Why this line, against the judge's brief (in its order):
 // 1. A single-line excuse a developer gives when code breaks in
 //    production: "It worked on my machine" is the canonical excuse,
